@@ -22,7 +22,7 @@ const Navbar = (props) => {
       <Nav>
         <NavBarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            JJ
+            jj
           </NavLogo>
           <MobileIcon onClick={props.toggle}>
             <FaBars />
