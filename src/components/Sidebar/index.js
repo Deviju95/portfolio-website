@@ -20,7 +20,7 @@ const Sidebar = (props) => {
           <SidebarLink to="about" onClick={props.toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="projects" onClick={props.toggle}>
+          <SidebarLink to="projectOne" onClick={props.toggle}>
             Projects
           </SidebarLink>
           <SidebarLink to="contact" onClick={props.toggle}>
