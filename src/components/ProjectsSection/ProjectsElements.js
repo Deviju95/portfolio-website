@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  background: ${({ lightBg }) => (lightBg ? "#fff" : "#010606")};
 
   @media screen and (max-width: 768) {
     padding: 100px 0;
@@ -10,15 +10,51 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsWrapper = styled.div`
-  display: grid;
-  z-index: 1;
-  height: 860px;
-  width: 100%;
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 24px;
-  justify-content: center;
+  display: flex;
+  margin: auto;
+
+  width: 80vw;
+
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }
+`;
+
+// background: #fff;
+// display: flex;
+// flex-direction: column;
+// justify-content: flex-start;
+// align-items: center;
+// border-radius: 10px;
+// max-height: 340px;
+// padding: 30px;
+// box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+// transition: all 0.2s ease-in-out;
+
+// &:hover {
+//   transform: scale(1.02);
+//   transition: all 0.2s ease-in-out;
+// }
+
+// display: grid;
+// z-index: 1;
+// height: 860px;
+// width: 100%;
+// max-width: 1100px;
+// margin-right: auto;
+// margin-left: auto;
+// padding: 0 24px;
+// justify-content: center;
+
+export const ProjectsH1 = styled.h1`
+  font-size: 48px;
+  color: ${({ lightText }) => (lightText ? "#fff" : "#010606")};
+  text-align: center;
 `;
 
 export const ProjectsRow = styled.div`
@@ -53,7 +89,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #55efc4;
+  color: #0984e3;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -67,7 +103,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  color: ${({ lightText }) => (lightText ? "#fff" : "#010606")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;

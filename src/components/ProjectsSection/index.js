@@ -1,6 +1,7 @@
 import React from "react";
 import {
   ProjectsContainer,
+  ProjectsH1,
   ProjectsWrapper,
   ProjectsRow,
   Column1,
@@ -17,12 +18,13 @@ const ProjectsSection = (props) => {
   return (
     <>
       <ProjectsContainer lightBg={props.lightBg} id={props.id}>
+        <ProjectsH1 lightText={props.lightText}>{props.header}</ProjectsH1>
         <ProjectsWrapper>
           <ProjectsRow imgStart={props.imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{props.topLine}</TopLine>
-                <Heading lightText={props.lightText}>{props.headline}</Heading>
+                <Heading lightText={props.lightText}>{props.title}</Heading>
                 <Subtitle darkText={props.darkText}>
                   {props.description}
                 </Subtitle>

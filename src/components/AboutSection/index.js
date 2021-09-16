@@ -1,10 +1,15 @@
 import React from "react";
 import { FaCode, FaServer, FaRulerCombined } from "react-icons/fa";
+import profileImg from "../../assets/profile-img.jpg";
 
 import {
   AboutContainer,
+  AboutH2,
+  AboutImgWrap,
+  AboutImg,
   AboutH1,
   AboutP,
+  AboutH3,
   SkillsWrapper,
   SkillsCard,
   SkillsIcon,
@@ -15,8 +20,19 @@ import {
 const Projects = () => {
   return (
     <AboutContainer id="about">
-      <AboutH1>Hi there! My name is Justin.</AboutH1>
-      <AboutP>This is a brief intro about me.</AboutP>
+      <AboutH2>Hi there! My name is Justin —</AboutH2>
+      <AboutImgWrap>
+        <AboutImg src={profileImg} alt="profile img" />;
+      </AboutImgWrap>
+      <AboutH1>
+        I design and develop <br />
+        to make life more intuitive and accessible!
+      </AboutH1>
+      <AboutP>
+        My background in art & design helps me to turn creative thinkings into a
+        straightforward user experience.
+      </AboutP>
+      <AboutH3>These are the tools I can use —</AboutH3>
       <SkillsWrapper>
         <SkillsCard>
           <SkillsIcon>
