@@ -17,13 +17,37 @@ const Sidebar = (props) => {
 
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={props.toggle}>
+          <SidebarLink
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={props.toggle}
+          >
             About
           </SidebarLink>
-          <SidebarLink to="projectOne" onClick={props.toggle}>
+          <SidebarLink
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={props.toggle}
+          >
             Projects
           </SidebarLink>
-          <SidebarLink to="contact" onClick={props.toggle}>
+          <SidebarLink
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            onClick={props.toggle}
+          >
             Contact
           </SidebarLink>
         </SidebarMenu>

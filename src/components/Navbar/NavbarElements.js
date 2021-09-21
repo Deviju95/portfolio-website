@@ -3,44 +3,41 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: transparent;
-  height: 80px;
+  background-color: #010606;
+  position: sticky;
+  top: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
 
-  @media screen and (max-width: 960px) {
-    transition: 0.8s all ease;
-  }
+  height: 80px;
+  z-index: 10;
 `;
 
 export const NavBarContainer = styled.div`
+  max-width: 1350px;
+  width: 90vw;
+
   display: flex;
   justify-content: space-between;
+
   height: 80px;
-  z-index: 1;
-  width: 100%;
   padding: 0 24px;
-  max-width: 1100px;
+  z-index: 1;
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #3a4f99;
-  justify-self: flex-start;
-  cursor: pointer;
-  font-size: 1.5rem;
   display: flex;
+  justify-self: flex-start;
   align-items: center;
-  margin-left: 24px;
-  font-weight: bold;
-  text-decoration: none;
 
   font-family: "personalLogoFont";
   font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 24px;
+  cursor: pointer;
 `;
 
 export const MobileIcon = styled.div`
@@ -54,37 +51,41 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #3a4f99;
+    color: #fff;
   }
 `;
 
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
+
   list-style: none;
-  text-align: center;
   margin-right: -22px;
+
+  font-size: 1.2rem;
+  color: #636e72;
 
   @media screen and (max-width: 768px) {
     display: none;
   }
 `;
 
-export const NavItem = styled.li`
-  height: 80px;
-`;
+export const NavItem = styled.li``;
 
 export const NavLinks = styled(LinkS)`
-  color: #3a4f99;
   display: flex;
   align-items: center;
+  justify-content: center;
+
+  padding: 0 1.4rem;
+  height: 77px;
+
   text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
   cursor: pointer;
 
   &.active {
+    padding-top: 3px;
     color: #fff;
-    border-bottom: 3px solid #fd79a8;
+    border-bottom: 3px solid #0984e3;
   }
 `;

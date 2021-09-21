@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCode, FaServer, FaRulerCombined } from "react-icons/fa";
-import profileImg from "../../assets/profile-img.jpg";
+import profileImg from "../../assets/profile-img.png";
 
 import {
   AboutContainer,
@@ -25,35 +25,63 @@ const Projects = () => {
         <AboutImg src={profileImg} alt="profile img" />;
       </AboutImgWrap>
       <AboutH1>
-        I design and develop <br />
-        to make life more intuitive and accessible!
+        I design and develop to make life more intuitive and accessible!
       </AboutH1>
       <AboutP>
         My background in art & design helps me to turn creative thinkings into a
         straightforward user experience.
       </AboutP>
-      <AboutH3>These are the tools I can use —</AboutH3>
+      <AboutH3>These are the tools I use —</AboutH3>
       <SkillsWrapper>
         <SkillsCard>
           <SkillsIcon>
             <FaCode />
           </SkillsIcon>
           <SkillsH1>Front-end</SkillsH1>
-          <SkillsP>Java</SkillsP>
+          <SkillsP>
+            React.js <br /> Styled-Components
+            <br /> React-Router
+            <br />
+            <br />
+            Bootstrap <br /> jQeury
+            <br /> <br />
+            HTML <br />
+            CSS
+            <br />
+            Javascript
+            <br />
+            Unix CDL
+          </SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsIcon>
             <FaServer />
           </SkillsIcon>
           <SkillsH1>Back-end</SkillsH1>
-          <SkillsP>Java</SkillsP>
+          <SkillsP>
+            Node.js <br /> Express.js
+          </SkillsP>
         </SkillsCard>
         <SkillsCard>
           <SkillsIcon>
             <FaRulerCombined />
           </SkillsIcon>
           <SkillsH1>Design</SkillsH1>
-          <SkillsP>Java</SkillsP>
+          <SkillsP>
+            Figma <br /> <br /> Cinema 4D <br /> Maya <br />
+            <br />
+            Adobe Suites —
+            <br />
+            Photoshop
+            <br />
+            After Effects
+            <br />
+            InDesign
+            <br />
+            Illustrator
+            <br />
+            Premiere Pro
+          </SkillsP>
         </SkillsCard>
       </SkillsWrapper>
     </AboutContainer>

@@ -35,17 +35,19 @@ const Navbar = (props) => {
                 duration={500}
                 spy={true}
                 exact="true"
+                offset={-80}
               >
                 About
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
-                to="projectOne"
+                to="projects"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
+                offset={-80}
               >
                 Projects
               </NavLinks>
@@ -57,6 +59,7 @@ const Navbar = (props) => {
                 duration={500}
                 spy={true}
                 exact="true"
+                offset={-80}
               >
                 Contact
               </NavLinks>

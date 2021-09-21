@@ -1,44 +1,15 @@
 import React from "react";
-import {
-  ProjectsContainer,
-  ProjectsH1,
-  ProjectsWrapper,
-  ProjectsRow,
-  Column1,
-  Column2,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  ImgWrap,
-  Img,
-} from "./ProjectsElements";
+import { ProjectsContainer, ProjectsH1 } from "./ProjectsElements";
+import ProjectCard from "../ProjectCard";
+import { homeObjOne, homeObjTwo } from "../ProjectCard/Data";
 
-const ProjectsSection = (props) => {
+const ProjectsSection = () => {
   return (
-    <>
-      <ProjectsContainer lightBg={props.lightBg} id={props.id}>
-        <ProjectsH1 lightText={props.lightText}>{props.header}</ProjectsH1>
-        <ProjectsWrapper>
-          <ProjectsRow imgStart={props.imgStart}>
-            <Column1>
-              <TextWrapper>
-                <TopLine>{props.topLine}</TopLine>
-                <Heading lightText={props.lightText}>{props.title}</Heading>
-                <Subtitle darkText={props.darkText}>
-                  {props.description}
-                </Subtitle>
-              </TextWrapper>
-            </Column1>
-            <Column2>
-              <ImgWrap>
-                <Img src={props.img} alt={props.alt} />
-              </ImgWrap>
-            </Column2>
-          </ProjectsRow>
-        </ProjectsWrapper>
-      </ProjectsContainer>
-    </>
+    <ProjectsContainer id="projects">
+      <ProjectsH1>Projects</ProjectsH1>
+      <ProjectCard {...homeObjOne} />
+      <ProjectCard {...homeObjTwo} />
+    </ProjectsContainer>
   );
 };
 

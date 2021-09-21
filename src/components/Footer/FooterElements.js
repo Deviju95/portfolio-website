@@ -2,91 +2,123 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  background-color: #101522;
+  height: 670px;
+
+  background-color: #010606;
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 310px 0 0;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
+`;
+
+export const FooterH1 = styled.h1`
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1.1px;
+
+  color: #fff;
+  opacity: 50%;
+
+  margin: 0;
 `;
 
 export const FooterLinksContainer = styled.div`
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
 
-  @media screen and (max-width: 820px) {
-    padding-top: 32px;
-  }
+  margin: 50px 0 30px 0;
+
+  display: flex;
+  align-items: center;
 `;
 
 export const FooterLinksWrapper = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
 
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
+  margin: auto;
+
+  width: 400px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-colums: 1fr;
   }
 `;
 
-export const FooterLinkItems = styled.div`
+export const FooterLink = styled.a`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  width: 240px;
-`;
+  width: 100px;
 
-export const FooterLink = styled(Link)`
-  color: #fff;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-
-  justify-self: start;
+  color: #fff;
   cursor: pointer;
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
 
   &:hover {
-    color: #01bf71;
-    transition: 0.3s ease-out;
+    color: grey;
+    transition: 0.1s ease-out;
   }
+`;
+
+export const FooterLinkLogo = styled.div`
+  font-size: 2rem;
+  margin: 0 0 -25px;
+`;
+export const FooterLinkP = styled.p`
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.8px;
 `;
 
 export const CopyrightsContainer = styled.section`
-  max-width: 1000px;
   width: 100%;
 `;
 
 export const CopyrightsWrap = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  max-width: 1100px;
-  margin: 40px auto 0 auto;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
 `;
 
-export const PersonalLogo = styled(Link)`
-  color: #fff;
-  justify-self: start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5rem;
+export const PersonalLogoCircle = styled(Link)`
+  background-color: #383838;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0;
+
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
-  font-weight: bold;
+  justify-content: center;
+
+  cursor: pointer;
+  text-decoration: none;
+`;
+
+export const PersonalLogo = styled.p`
+  font-family: "personalLogoFont";
+  color: #fff;
+  font-size: 1.1rem;
+
+  margin: 4px 2px 0 0;
 `;
 
 export const Copyrights = styled.small`
+  font-size: 0.9rem;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+
   color: #fff;
-  margin-bottom: 16px;
+  margin: 20px 0 0 0;
 `;
