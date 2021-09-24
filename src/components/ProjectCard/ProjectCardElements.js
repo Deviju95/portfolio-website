@@ -17,6 +17,10 @@ export const ProjectsCard = styled.div`
   @media screen and (max-width: 768px) {
     width: 80vw;
   }
+
+  @media screen and (max-width: 425px) {
+    width: 90vw;
+  }
 `;
 
 //
@@ -44,7 +48,7 @@ export const Column2 = styled.div`
 
 export const ImgWrap = styled.div`
   max-width: 300px;
-  padding: 50px;
+  padding: 0 50px 0 10px;
 
   @media screen and (max-width: 768px) {
     width: 200px;
@@ -54,7 +58,6 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
 `;
 
 export const Column1 = styled.div`
@@ -70,6 +73,10 @@ export const TextWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: 40px 40px 0px;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin: 30px 20px 0px;
   }
 `;
 
@@ -98,7 +105,7 @@ export const TopLine = styled.p`
 export const Heading = styled.h1`
   font-size: 3rem;
   font-weight: 600;
-  line-height: 1.1;
+  line-height: 1;
 
   margin: 3px 0 0;
 
@@ -159,7 +166,7 @@ export const ProjectLinksWrapper = styled.div`
   text-align: center;
 
   height: 30px;
-  margin: 3px 0 0;
+  margin: 8px 0 0;
 
   @media screen and (max-width: 768px) {
     column-gap: 20px;

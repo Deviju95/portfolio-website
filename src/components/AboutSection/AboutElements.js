@@ -18,6 +18,7 @@ export const AboutH2 = styled.h2`
   font-weight: 400;
   text-align: center;
   color: #fff;
+  line-height: 1.2;
 
   margin-top: 100px;
 
@@ -102,6 +103,7 @@ export const AboutH3 = styled.h3`
 
   font-size: 1.8rem;
   font-weight: 500;
+  line-height: 1;
 
   text-align: left;
   margin-top: 80px;
@@ -112,7 +114,7 @@ export const AboutH3 = styled.h3`
     font-size: 1.6rem;
     font-weight: 300;
 
-    margin-top: 70px;
+    margin-top: 50px;
   }
 `;
 
@@ -123,7 +125,7 @@ export const SkillsWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 50px;
 
-  margin-top: 80px;
+  margin-top: 30px;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -131,7 +133,7 @@ export const SkillsWrapper = styled.div`
     margin-top: 30px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 425px) {
     margin-top: 0px;
 
     grid-gap: 20px;

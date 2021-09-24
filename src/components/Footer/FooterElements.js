@@ -27,6 +27,7 @@ export const FooterH1 = styled.h1`
   font-weight: 300;
   letter-spacing: 1.1px;
   text-align: center;
+  line-height: 1;
 
   color: #fff;
   opacity: 50%;

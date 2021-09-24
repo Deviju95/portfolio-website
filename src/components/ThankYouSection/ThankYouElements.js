@@ -22,7 +22,9 @@ export const ThankYouLogo = styled(Link)`
   cursor: pointer;
 
   @media screen and (max-width: 768px) {
-    padding: 30px 30px;
+    padding: 31px 29px;
+
+    font-size: 1.6rem;
   }
 `;
 
@@ -105,8 +107,10 @@ export const SocialLinksWrapper = styled.div`
   left: 40px;
 
   @media screen and (max-width: 768px) {
-    bottom: 20px;
-    left: 10px;
+    bottom: 25px;
+    left: auto;
+
+    width: 100vw;
   }
 `;
 
@@ -158,7 +162,10 @@ export const CopyrightP = styled.p`
   color: #fff;
 
   @media screen and (max-width: 768px) {
-    bottom: 2px;
-    left: 19px;
+    bottom: 1px;
+    right: auto;
+
+    width: 100vw;
+    text-align: center;
   }
 `;

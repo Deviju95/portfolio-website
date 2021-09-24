@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectsContainer, ProjectsH1 } from "./ProjectsElements";
 import ProjectCard from "../ProjectCard";
-import { projectOne, projectTwo } from "../ProjectCard/Data";
+import { projectOne } from "../ProjectCard/Data";
 
 const ProjectsSection = () => {
   return (
