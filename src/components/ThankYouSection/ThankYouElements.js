@@ -20,6 +20,10 @@ export const ThankYouLogo = styled(Link)`
   text-decoration: none;
 
   cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    padding: 30px 30px;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -30,6 +34,13 @@ export const TextWrapper = styled.div`
 
   width: 50vw;
   margin: 100px auto 0;
+
+  @media screen and (max-width: 768px) {
+    width: 95vw;
+    margin: 30px auto 0;
+
+    line-height: 1.1;
+  }
 `;
 
 export const TextH1 = styled.h1`
@@ -37,6 +48,13 @@ export const TextH1 = styled.h1`
   font-weight: 600;
 
   margin: 80px 0 0 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin: 40px 12px 20px;
+  }
 `;
 
 export const TextH2 = styled.h2`
@@ -44,6 +62,13 @@ export const TextH2 = styled.h2`
   font-weight: 400;
 
   margin: 10px 0 0 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+    font-weight: 300;
+
+    margin: 0 12px 0;
+  }
 `;
 
 export const TextLink = styled(Link)`
@@ -61,6 +86,12 @@ export const TextLink = styled(Link)`
     color: #fff;
     transition: 0.1s ease-out;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    font-weight: 200;
+
+    margin: 30px 12px 0;
+  }
 `;
 
 export const SocialLinksWrapper = styled.div`
@@ -74,7 +105,8 @@ export const SocialLinksWrapper = styled.div`
   left: 40px;
 
   @media screen and (max-width: 768px) {
-    grid-template-colums: 1fr;
+    bottom: 20px;
+    left: 10px;
   }
 `;
 
@@ -92,17 +124,26 @@ export const SocialLink = styled.a`
     color: #fff;
     transition: 0.1s ease-out;
   }
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const SocialLinkLogo = styled.div`
   font-size: 1.6rem;
   margin: 0 0 -25px;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const SocialLinkP = styled.p`
   font-size: 0.8rem;
   font-weight: 200;
   letter-spacing: 0.8px;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const CopyrightP = styled.p`
@@ -115,4 +156,9 @@ export const CopyrightP = styled.p`
   letter-spacing: 1.2px;
 
   color: #fff;
+
+  @media screen and (max-width: 768px) {
+    bottom: 2px;
+    left: 19px;
+  }
 `;

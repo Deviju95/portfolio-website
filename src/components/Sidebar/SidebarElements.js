@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #010606;
   display: grid;
   align-items: center;
   top: 0;
@@ -19,7 +19,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #3a4f99;
+  color: #fff;
 `;
 
 export const Icon = styled.div`
@@ -33,34 +33,40 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: #fff;
+  color: #010606;
+  height: 80%;
+  width: 50vw;
+  margin: auto;
 `;
 
 export const SidebarMenu = styled.ul`
-  display: grid;
-  grid-template-colums: 1fr;
-  grid-template-rows: repeat(6, 80px);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
-  } ;
+  padding: 0;
+  margin: 0;
 `;
 
 export const SidebarLink = styled(LinkS)`
+  height: 60px;
+  width: 20vw;
+  margin: 30px 0 0 0;
+
+  color: #fff;
+  font-size: 1.4rem;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
-  text-decoration: none;
-  list-style: none;
+
   transition: 0.2s ease-in-out;
-  text-decoration: none;
-  color: #3a4f99;
-  cursor: pointer;
 
   &:hover {
-    color: #d63031;
+    color: #0984e3;
     transition: 0.2s ease-in-out;
   }
 `;

@@ -5,6 +5,9 @@ export const FooterContainer = styled.footer`
   height: 670px;
 
   background-color: #010606;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const FooterWrap = styled.div`
@@ -13,17 +16,29 @@ export const FooterWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    padding: 350px 0 0;
+  }
 `;
 
 export const FooterH1 = styled.h1`
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 1.1px;
+  text-align: center;
 
   color: #fff;
   opacity: 50%;
 
   margin: 0;
+  padding: 0 30px 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+  }
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -34,6 +49,10 @@ export const FooterLinksContainer = styled.div`
 
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 30px 0 30px 0;
+  }
 `;
 
 export const FooterLinksWrapper = styled.div`
@@ -47,7 +66,6 @@ export const FooterLinksWrapper = styled.div`
   width: 400px;
 
   @media screen and (max-width: 768px) {
-    grid-template-colums: 1fr;
   }
 `;
 
@@ -65,20 +83,32 @@ export const FooterLink = styled.a`
     color: grey;
     transition: 0.1s ease-out;
   }
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const FooterLinkLogo = styled.div`
   font-size: 2rem;
   margin: 0 0 -25px;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 export const FooterLinkP = styled.p`
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.8px;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const CopyrightsContainer = styled.section`
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const CopyrightsWrap = styled.div`
@@ -86,8 +116,7 @@ export const CopyrightsWrap = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
+  @media screen and (max-width: 768px) {
   }
 `;
 
@@ -104,6 +133,10 @@ export const PersonalLogoCircle = styled(Link)`
 
   cursor: pointer;
   text-decoration: none;
+
+  @media screen and (max-width: 768px) {
+    margin: 10px 0 0;
+  }
 `;
 
 export const PersonalLogo = styled.p`
@@ -112,6 +145,9 @@ export const PersonalLogo = styled.p`
   font-size: 1.1rem;
 
   margin: 4px 2px 0 0;
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const Copyrights = styled.small`
@@ -121,4 +157,8 @@ export const Copyrights = styled.small`
 
   color: #fff;
   margin: 20px 0 0 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 10px 0 0 0;
+  }
 `;

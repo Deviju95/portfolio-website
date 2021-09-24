@@ -15,6 +15,7 @@ import {
   SkillsIcon,
   SkillsH1,
   SkillsP,
+  SkillsPWrapper,
 } from "./AboutElements";
 
 const Projects = () => {
@@ -38,50 +39,56 @@ const Projects = () => {
             <FaCode />
           </SkillsIcon>
           <SkillsH1>Front-end</SkillsH1>
-          <SkillsP>
-            React.js <br /> Styled-Components
-            <br /> React-Router
-            <br />
-            <br />
-            Bootstrap <br /> jQeury
-            <br /> <br />
-            HTML <br />
-            CSS
-            <br />
-            Javascript
-            <br />
-            Unix CDL
-          </SkillsP>
+          <SkillsPWrapper>
+            <SkillsP>
+              React.js <br /> Styled-Components
+              <br /> React-Router
+              <br />
+              <br />
+              Bootstrap <br /> jQeury
+              <br /> <br />
+              HTML <br />
+              CSS
+              <br />
+              Javascript
+              <br />
+              Unix CDL
+            </SkillsP>
+          </SkillsPWrapper>
         </SkillsCard>
         <SkillsCard>
           <SkillsIcon>
             <FaServer />
           </SkillsIcon>
           <SkillsH1>Back-end</SkillsH1>
-          <SkillsP>
-            Node.js <br /> Express.js
-          </SkillsP>
+          <SkillsPWrapper>
+            <SkillsP>
+              Node.js <br /> Express.js
+            </SkillsP>
+          </SkillsPWrapper>
         </SkillsCard>
         <SkillsCard>
           <SkillsIcon>
             <FaRulerCombined />
           </SkillsIcon>
           <SkillsH1>Design</SkillsH1>
-          <SkillsP>
-            Figma <br /> <br /> Cinema 4D <br /> Maya <br />
-            <br />
-            Adobe Suites —
-            <br />
-            Photoshop
-            <br />
-            After Effects
-            <br />
-            InDesign
-            <br />
-            Illustrator
-            <br />
-            Premiere Pro
-          </SkillsP>
+          <SkillsPWrapper>
+            <SkillsP>
+              Figma <br /> <br /> Cinema 4D <br /> Maya <br />
+              <br />
+              Adobe Suites —
+              <br />
+              Photoshop
+              <br />
+              After Effects
+              <br />
+              InDesign
+              <br />
+              Illustrator
+              <br />
+              Premiere Pro
+            </SkillsP>
+          </SkillsPWrapper>
         </SkillsCard>
       </SkillsWrapper>
     </AboutContainer>

@@ -13,6 +13,10 @@ export const ProjectsCard = styled.div`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
 `;
 
 //
@@ -41,6 +45,11 @@ export const Column2 = styled.div`
 export const ImgWrap = styled.div`
   max-width: 300px;
   padding: 50px;
+
+  @media screen and (max-width: 768px) {
+    width: 200px;
+    padding: 20px;
+  }
 `;
 
 export const Img = styled.img`
@@ -58,6 +67,10 @@ export const TextWrapper = styled.div`
   max-width: 450px;
   padding: 0;
   margin: 50px 25px 50px 50px;
+
+  @media screen and (max-width: 768px) {
+    margin: 40px 40px 0px;
+  }
 `;
 
 export const TopLine = styled.p`
@@ -71,6 +84,15 @@ export const TopLine = styled.p`
   margin: 0 0 0 5px;
 
   color: #0984e3;
+
+  @media screen and (max-width: 768px) {
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+
+    margin: 0 0 0 5px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -82,8 +104,9 @@ export const Heading = styled.h1`
 
   color: ${({ lightText }) => (lightText ? "#fff" : "#010606")};
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 768px) {
+    font-size: 2.4rem;
+    font-weight: 500;
   }
 `;
 
@@ -95,6 +118,14 @@ export const Subtitle = styled.p`
   margin: 50px 0 0;
 
   color: #010606;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.3;
+
+    margin: 30px 0 0;
+  }
 `;
 
 export const TechStack = styled.p`
@@ -107,6 +138,14 @@ export const TechStack = styled.p`
   margin: 50px 0 0;
 
   color: #636e72;
+
+  @media screen and (max-width: 768px) {
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    margin: 30px 0 0;
+  }
 `;
 
 export const ProjectLinksWrapper = styled.div`
@@ -116,9 +155,20 @@ export const ProjectLinksWrapper = styled.div`
 
   font-size: 1.1rem;
   font-weight: 500;
+  line-height: 0.8;
+  text-align: center;
 
   height: 30px;
   margin: 3px 0 0;
+
+  @media screen and (max-width: 768px) {
+    column-gap: 20px;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    margin: 20px 0 10px;
+  }
 `;
 
 export const ProjectLink = styled.a`
@@ -134,10 +184,19 @@ export const ProjectLink = styled.a`
     color: #d63031;
     transition: all 0.2s ease-in-out;
   }
+
+  @media screen and (max-width: 768px) {
+  }
 `;
 
 export const ProjectLinkDivider = styled.p`
   height: 100%;
 
   color: #0984e3;
+
+  @media screen and (max-width: 768px) {
+    font-weight: 600;
+
+    color: #74b9ff;
+  }
 `;

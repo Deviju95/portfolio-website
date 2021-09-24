@@ -1,16 +1,16 @@
-export const homeObjOne = {
+export const projectOne = {
   topLine: "A forum with membership function",
   title: "Coming Soon —",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   techStack: "#React #Styled-Components",
-  linkOneTitle: "Try the App",
+  linkOneTitle: "APP URL",
   linkOne: "//www.instagram.com/jaaaaan_g",
   dividerOne: "|",
-  linkTwoTitle: "Coding",
+  linkTwoTitle: "GIT CODE URL",
   linkTwo: "//www.instagram.com/jaaaaan_g",
-  dividerTwo: "",
-  linkThreeTitle: "",
+  dividerTwo: "|",
+  linkThreeTitle: "SERVER URL",
   linkThree: "",
 
   img: require("../../assets/svg-1.svg").default,
@@ -22,19 +22,19 @@ export const homeObjOne = {
   imgStart: false,
 };
 
-export const homeObjTwo = {
+export const projectTwo = {
   topLine: "A weekly todo app",
   title: "Coming Soon —",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   techStack: "#React #Styled-Components",
-  linkOneTitle: "Try the App",
+  linkOneTitle: "APP URL",
   linkOne: "//www.instagram.com/jaaaaan_g",
   dividerOne: "|",
-  linkTwoTitle: "Coding",
+  linkTwoTitle: "GIT CODE URL",
   linkTwo: "//www.instagram.com/jaaaaan_g",
   dividerTwo: "|",
-  linkThreeTitle: "Server",
+  linkThreeTitle: "SERVER URL",
   linkThree: "//www.instagram.com/jaaaaan_g",
 
   img: require("../../assets/svg-2.svg").default,

@@ -4,10 +4,6 @@ export const ProjectsContainer = styled.div`
   background: #fff;
 
   padding: 0 0 10px;
-
-  @media screen and (max-width: 768) {
-    padding: 100px 0;
-  }
 `;
 
 export const ProjectsH1 = styled.h1`
@@ -19,4 +15,11 @@ export const ProjectsH1 = styled.h1`
 
   color: #010606;
   text-align: center;
+
+  @media screen and (max-width: 768px) {
+    padding: 30px 0 30px;
+
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
 `;
