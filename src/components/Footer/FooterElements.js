@@ -2,23 +2,28 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  height: 670px;
+  display: flex;
+  flex-direction: column;
+
+  height: 750px;
 
   background-color: #010606;
+  color: #fff;
 
   @media screen and (max-width: 768px) {
   }
 `;
 
 export const FooterWrap = styled.div`
-  padding: 310px 0 0;
+  margin-top: auto;
+  height: 350px;
+
+  text-align: center;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   @media screen and (max-width: 768px) {
-    padding: 350px 0 0;
   }
 `;
 
@@ -26,14 +31,11 @@ export const FooterH1 = styled.h1`
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 1.1px;
-  text-align: center;
   line-height: 1;
 
-  color: #fff;
   opacity: 50%;
 
-  margin: 0;
-  padding: 0 30px 0;
+  padding: 0;
 
   @media screen and (max-width: 768px) {
     font-size: 1.6rem;
@@ -43,16 +45,9 @@ export const FooterH1 = styled.h1`
 `;
 
 export const FooterLinksContainer = styled.div`
-  width: 100%;
-  height: 100%;
-
-  margin: 50px 0 30px 0;
-
-  display: flex;
-  align-items: center;
+  margin-top: 10px;
 
   @media screen and (max-width: 768px) {
-    margin: 30px 0 30px 0;
   }
 `;
 
@@ -106,7 +101,7 @@ export const FooterLinkP = styled.p`
 `;
 
 export const CopyrightsContainer = styled.section`
-  width: 100%;
+  margin-top: auto;
 
   @media screen and (max-width: 768px) {
   }
@@ -126,7 +121,6 @@ export const PersonalLogoCircle = styled(Link)`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 0;
 
   display: flex;
   align-items: center;
@@ -134,6 +128,8 @@ export const PersonalLogoCircle = styled(Link)`
 
   cursor: pointer;
   text-decoration: none;
+
+  margin-bottom: 10px;
 
   @media screen and (max-width: 768px) {
     margin: 10px 0 0;
@@ -156,10 +152,8 @@ export const Copyrights = styled.small`
   font-weight: 100;
   letter-spacing: 1.2px;
 
-  color: #fff;
-  margin: 20px 0 0 0;
+  margin-bottom: 25px;
 
   @media screen and (max-width: 768px) {
-    margin: 10px 0 0 0;
   }
 `;

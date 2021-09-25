@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContactWrap = styled.div`
   background-color: #fff;
 
-  height: 250px;
+  height: 350px;
 
   @media screen and (max-width: 768px) {
     height: 125px;
@@ -15,7 +15,7 @@ export const ContactCard = styled.div`
   top: 60%;
 
   width: 50vw;
-  height: 350px;
+  height: 370px;
   margin: 0 auto 0;
 
   background: #fff;

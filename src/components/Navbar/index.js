@@ -35,7 +35,7 @@ const Navbar = (props) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-81}
               >
                 About
               </NavLinks>
