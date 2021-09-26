@@ -31,7 +31,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLink
-              href="//www.instagram.com/jaaaaan_g"
+              href="//www.instagram.com/justin_j.ang"
               target="_blank"
               aria-label="Instagram"
             >

@@ -28,14 +28,14 @@ const ThankYouSection = () => {
 
       <SocialLinksWrapper>
         <SocialLink
-          href="//www.instagram.com/jaaaaan_g"
+          href="//www.instagram.com/justin_j.ang"
           target="_blank"
           aria-label="Instagram"
         >
           <SocialLinkLogo>
             <FaInstagram />
           </SocialLinkLogo>
-          <SocialLinkP>@jaaaaan_g</SocialLinkP>
+          <SocialLinkP>@justin_j.ang</SocialLinkP>
         </SocialLink>
         <SocialLink
           href="//www.github.com/deviju95"
