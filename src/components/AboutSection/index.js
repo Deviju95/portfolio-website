@@ -44,6 +44,8 @@ const Projects = () => {
               React.js <br /> Styled-Components
               <br /> React-Router
               <br />
+              Github
+              <br />
               <br />
               Bootstrap <br /> jQeury
               <br /> <br />

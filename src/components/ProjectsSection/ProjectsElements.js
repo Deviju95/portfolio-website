@@ -17,7 +17,7 @@ export const ProjectsH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    padding: 30px 0 30px;
+    padding: 40px 0 30px;
 
     font-size: 2.4rem;
     font-weight: 600;

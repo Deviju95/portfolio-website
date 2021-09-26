@@ -38,7 +38,7 @@ const Footer = () => {
               <FooterLinkLogo>
                 <FaInstagram />
               </FooterLinkLogo>
-              <FooterLinkP>@jaaaaan_g</FooterLinkP>
+              <FooterLinkP>@justin_j.ang</FooterLinkP>
             </FooterLink>
             <FooterLink
               href="//www.github.com/deviju95"

@@ -42,11 +42,14 @@ export const FooterH1 = styled.h1`
     font-weight: 500;
     letter-spacing: 1.1px;
   }
+
+  @media screen and (max-width: 426px) {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
 `;
 
 export const FooterLinksContainer = styled.div`
-  margin-top: 10px;
-
   @media screen and (max-width: 768px) {
   }
 `;
@@ -57,11 +60,16 @@ export const FooterLinksWrapper = styled.div`
   align-items: center;
   justify-items: center;
 
-  margin: auto;
+  margin: 10px auto 0;
 
   width: 400px;
 
   @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (max-width: 426px) {
+    width: 350px;
+    margin: 20px auto 0;
   }
 `;
 
@@ -90,6 +98,10 @@ export const FooterLinkLogo = styled.div`
 
   @media screen and (max-width: 768px) {
   }
+
+  @media screen and (max-width: 426px) {
+    font-size: 1.8rem;
+  }
 `;
 export const FooterLinkP = styled.p`
   font-size: 1rem;
@@ -97,6 +109,10 @@ export const FooterLinkP = styled.p`
   letter-spacing: 0.8px;
 
   @media screen and (max-width: 768px) {
+  }
+
+  @media screen and (max-width: 426px) {
+    font-size: 0.9rem;
   }
 `;
 
@@ -129,10 +145,9 @@ export const PersonalLogoCircle = styled(Link)`
   cursor: pointer;
   text-decoration: none;
 
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 
   @media screen and (max-width: 768px) {
-    margin: 10px 0 0;
   }
 `;
 

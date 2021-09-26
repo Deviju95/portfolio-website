@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  height: 1500px;
+  height: 1460px;
   background: #010606;
 
   display: flex;
@@ -9,6 +9,10 @@ export const AboutContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
+    height: 1480px;
+  }
+
+  @media screen and (max-width: 426px) {
     height: 1600px;
   }
 `;
