@@ -16,7 +16,7 @@ This allows me to create a single page scroll when a navbar menu is clicked.
 
 ### `react-router`
 
-I used **HashRouter** instead of BrowserRouter as an alternative prevention of blank page when deployed through gh-pages.
+I used **HashRouter** instead of BrowserRouter as an alternative prevention of blank **route** page when deployed through gh-pages.
 
 Through the Switch, Route system, the page routes between "home" and "thankyou" page.
 
