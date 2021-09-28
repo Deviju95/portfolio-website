@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import personalLogoFont from "./assets/JJFontPersonalLogo.otf";
 
@@ -26,8 +26,8 @@ function App() {
       <GlobalStyle />
 
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/thankyou" component={ThankYouPage} exact />
+        <Route exact path="/" component={Home} />
+        <Route path="/thankyou" component={ThankYouPage} />
       </Switch>
     </Router>
   );
