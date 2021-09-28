@@ -47,7 +47,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://justin-jang.com/#/thankyou"
+            value="https://justin-jang.com/thankyou"
           />
           <input type="hidden" name="_captcha" value="false" />
         </ContactForm>
