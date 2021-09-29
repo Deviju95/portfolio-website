@@ -1,11 +1,11 @@
 export const projectOne = {
-  topLine: "A forum with membership function",
-  title: "Coming Soon —",
+  topLine: "note app",
+  title: "Keep Clone App",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  techStack: "#React #Styled-Components",
-  linkOneTitle: "coming soon",
-  linkOne: "//",
+    "Created a Google Keep clone app, with functionality of adding and deleting notes with proper styling.",
+  techStack: "#React #Styled-Components #MUI",
+  linkOneTitle: "Git Code",
+  linkOne: "//github.com/deviju95/keep-clone-app",
   dividerOne: "",
   linkTwoTitle: "",
   linkTwo: "",

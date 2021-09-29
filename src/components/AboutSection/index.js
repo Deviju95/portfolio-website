@@ -18,7 +18,7 @@ import {
   SkillsPWrapper,
 } from "./AboutElements";
 
-const Projects = () => {
+const AboutSection = () => {
   return (
     <AboutContainer id="about">
       <AboutH2>Hi there! My name is Justin —</AboutH2>
@@ -97,4 +97,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default AboutSection;
