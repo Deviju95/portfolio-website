@@ -1,10 +1,10 @@
-export const projectOne = {
+export const projectTwo = {
   topLine: "note app",
-  title: "Keep Clone App",
+  title: "Keep Clone App—",
   description:
     "Created a Google Keep clone app, with functionality of adding and deleting notes with proper styling.",
   techStack: "#React #Styled-Components #MUI",
-  linkOneTitle: "Git Code",
+  linkOneTitle: "Git",
   linkOne: "//github.com/deviju95/keep-clone-app",
   dividerOne: "",
   linkTwoTitle: "",
@@ -13,7 +13,7 @@ export const projectOne = {
   linkThreeTitle: "",
   linkThree: "",
 
-  img: require("../../assets/svg-1.svg").default,
+  img: require("../../assets/keep-clone-img.svg").default,
   alt: "project one image",
   lightBg: true,
   lightText: false,
@@ -22,22 +22,22 @@ export const projectOne = {
   imgStart: false,
 };
 
-export const projectTwo = {
-  topLine: "A weekly todo app",
-  title: "Coming Soon —",
+export const projectOne = {
+  topLine: "A social media platform",
+  title: "Foodies—",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  techStack: "#React #Styled-Components",
-  linkOneTitle: "APP URL",
-  linkOne: "//www.instagram.com/jaaaaan_g",
-  dividerOne: "|",
-  linkTwoTitle: "GIT CODE URL",
-  linkTwo: "//www.instagram.com/jaaaaan_g",
-  dividerTwo: "|",
-  linkThreeTitle: "SERVER URL",
-  linkThree: "//www.instagram.com/jaaaaan_g",
+    "A social media platform where you can share places of goodies or a must-go restaurant.",
+  techStack: "#React #GoogleAPI",
+  linkOneTitle: "Git",
+  linkOne: "https://github.com/deviju95/foodies",
+  dividerOne: "",
+  linkTwoTitle: "",
+  linkTwo: "",
+  dividerTwo: "",
+  linkThreeTitle: "",
+  linkThree: "",
 
-  img: require("../../assets/svg-2.svg").default,
+  img: require("../../assets/foodies-img.svg").default,
   alt: "project two image",
   lightBg: true,
   lightText: false,

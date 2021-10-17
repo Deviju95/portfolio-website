@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaFileAlt } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
-import resume2021 from "../../assets/JustinJangResume202109.pdf";
+import resume2021 from "../../assets/JustinJangResume.pdf";
 
 import {
   FooterContainer,
@@ -25,15 +25,15 @@ const Footer = () => {
   };
 
   return (
-    <FooterContainer id="footer">
+    <FooterContainer id='footer'>
       <FooterWrap>
         <FooterH1>What I Do Today Will Show Tomorrow</FooterH1>
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLink
-              href="//www.instagram.com/justin_j.ang"
-              target="_blank"
-              aria-label="Instagram"
+              href='//www.instagram.com/justin_j.ang'
+              target='_blank'
+              aria-label='Instagram'
             >
               <FooterLinkLogo>
                 <FaInstagram />
@@ -41,16 +41,16 @@ const Footer = () => {
               <FooterLinkP>@justin_j.ang</FooterLinkP>
             </FooterLink>
             <FooterLink
-              href="//www.github.com/deviju95"
-              target="_blank"
-              aria-label="Github"
+              href='//www.github.com/deviju95'
+              target='_blank'
+              aria-label='Github'
             >
               <FooterLinkLogo>
                 <FaGithub />
               </FooterLinkLogo>
               <FooterLinkP> _deviju95</FooterLinkP>
             </FooterLink>
-            <FooterLink href={resume2021} target="_blank" area-label="Resume">
+            <FooterLink href={resume2021} target='_blank' area-label='Resume'>
               <FooterLinkLogo>
                 <FaFileAlt />
               </FooterLinkLogo>
@@ -60,7 +60,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <CopyrightsContainer>
           <CopyrightsWrap>
-            <PersonalLogoCircle to="/" onClick={toggleHome}>
+            <PersonalLogoCircle to='/' onClick={toggleHome}>
               <PersonalLogo>jj</PersonalLogo>
             </PersonalLogoCircle>
             <Copyrights>
