@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.c97fcf83.chunk.js",
-    "main.js.map": "/static/js/main.c97fcf83.chunk.js.map",
+    "main.js": "/static/js/main.ca8b3f8d.chunk.js",
+    "main.js.map": "/static/js/main.ca8b3f8d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa5713dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa5713dc.js.map",
-    "static/js/2.44266015.chunk.js": "/static/js/2.44266015.chunk.js",
-    "static/js/2.44266015.chunk.js.map": "/static/js/2.44266015.chunk.js.map",
+    "static/js/2.f6b8df59.chunk.js": "/static/js/2.f6b8df59.chunk.js",
+    "static/js/2.f6b8df59.chunk.js.map": "/static/js/2.f6b8df59.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.44266015.chunk.js.LICENSE.txt": "/static/js/2.44266015.chunk.js.LICENSE.txt",
+    "static/js/2.f6b8df59.chunk.js.LICENSE.txt": "/static/js/2.f6b8df59.chunk.js.LICENSE.txt",
     "static/media/JJFontPersonalLogo.bda025ea.otf": "/static/media/JJFontPersonalLogo.bda025ea.otf",
-    "static/media/JustinJangResume202109.525e8172.pdf": "/static/media/JustinJangResume202109.525e8172.pdf",
-    "static/media/profile-img.60e75f9c.png": "/static/media/profile-img.60e75f9c.png",
-    "static/media/svg-1.svg": "/static/media/svg-1.73a98e1e.svg",
-    "static/media/svg-2.svg": "/static/media/svg-2.ab55c18a.svg"
+    "static/media/JustinJangResume.9590e3c1.pdf": "/static/media/JustinJangResume.9590e3c1.pdf",
+    "static/media/foodies-img.svg": "/static/media/foodies-img.b93c6871.svg",
+    "static/media/keep-clone-img.svg": "/static/media/keep-clone-img.86e0ce73.svg",
+    "static/media/profile-img.60e75f9c.png": "/static/media/profile-img.60e75f9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fa5713dc.js",
-    "static/js/2.44266015.chunk.js",
-    "static/js/main.c97fcf83.chunk.js"
+    "static/js/2.f6b8df59.chunk.js",
+    "static/js/main.ca8b3f8d.chunk.js"
   ]
 }
