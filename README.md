@@ -4,7 +4,7 @@ This is my portfolio website. You can visit the website at [justin-jang.com](htt
 
 ## About the Project
 
-This website is built using React.js. Concepts I used in this website:
+- This website is created to promote my projects and a contact form to reach out to me.
 
 ## Built With
 
