@@ -1,30 +1,40 @@
-# Personal Portfolio Website
+# Portfolio Website
 
-Visit website at [justin-jang.com](https://justin-jang.com).
+This is my portfolio website. You can visit the website at [justin-jang.com](https://justin-jang.com).
 
-## Available Scripts
+## About the Project
 
 This website is built using React.js. Concepts I used in this website:
 
-### `styled-components`
+## Built With
 
-Style the website from top to bottom, such as creating my own navbars and responsive elements.
+### Tech Stack
 
-### `react-scroll`
+- React
 
-This allows me to create a single page scroll when a navbar menu is clicked.
+### Languages
 
-### `react-router`
+- JavaScript
 
-I used **HashRouter** instead of BrowserRouter as an alternative prevention of blank **route** page when deployed through gh-pages.
+### Others
 
-Through the Switch, Route system, the page routes between "home" and "thankyou" page.
+- styled-components
+- react-scroll
+- react-router
+- react gh-pages
+- formsubmit.com
 
-### `formsubmit.com`
+## Getting Started
 
-I used a third party site to send me emails through form submission on the contact section.
+- Go to [justin-jang.com](https://justin-jang.com).
+- Click project box to start the app.
+- You can also click **Git** or **Server** inside the project card to see the codes.
+- Drop me a message through the contact form!
+- Checkout my github, instagram or resume at the footer.
 
-### `react gh-pages deploy`
+### `Personal Note`
+
+#### react deploy through github
 
 I added lines inside package.json —
 "homepage" : "https://justin-jang.com",
@@ -33,3 +43,13 @@ and
 to deploy react.js through gh-pages.
 
 I also added CNAME including my url in order to gh-pages to automatically include my custom url when I **npm run deploy**.
+
+#### react-router
+
+I used **HashRouter** instead of BrowserRouter as an alternative prevention of blank **route** page when deployed through gh-pages.
+
+Through the Switch, Route system, the page routes between "home" and "thankyou" page.
+
+#### formsubmit.com
+
+I used a third party site to send me emails through form submission on the contact section.
