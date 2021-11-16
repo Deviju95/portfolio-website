@@ -1,6 +1,6 @@
-import React from "react";
-import { FaCode, FaServer, FaRulerCombined } from "react-icons/fa";
-import profileImg from "../../assets/profile-img.png";
+import React from 'react';
+import { FaCode, FaServer, FaRulerCombined } from 'react-icons/fa';
+import profileImg from '../../assets/profile-img.png';
 
 import {
   AboutContainer,
@@ -16,14 +16,14 @@ import {
   SkillsH1,
   SkillsP,
   SkillsPWrapper,
-} from "./AboutElements";
+} from './AboutElements';
 
 const AboutSection = () => {
   return (
-    <AboutContainer id="about">
+    <AboutContainer id='about'>
       <AboutH2>Hi there! My name is Justin —</AboutH2>
       <AboutImgWrap>
-        <AboutImg src={profileImg} alt="profile img" />;
+        <AboutImg src={profileImg} alt='profile img' />;
       </AboutImgWrap>
       <AboutH1>
         I design and develop to make life more intuitive and accessible!
@@ -41,20 +41,18 @@ const AboutSection = () => {
           <SkillsH1>Front-end</SkillsH1>
           <SkillsPWrapper>
             <SkillsP>
-              React.js <br /> Styled-Components
-              <br /> React-Router
-              <br />
-              Github
-              <br />
-              <br />
-              Bootstrap <br /> jQeury
-              <br /> <br />
               HTML <br />
-              CSS
+              CSS <br />
+              Javascript <br />
               <br />
-              Javascript
+              React.js <br />
+              Styled-Components <br />
+              TailWindCSS <br />
               <br />
-              Unix CDL
+              Bootstrap <br />
+              Material UI <br />
+              <br />
+              Github <br />
             </SkillsP>
           </SkillsPWrapper>
         </SkillsCard>
@@ -65,7 +63,11 @@ const AboutSection = () => {
           <SkillsH1>Back-end</SkillsH1>
           <SkillsPWrapper>
             <SkillsP>
-              Node.js <br /> Express.js
+              Node.js <br />
+              Express.js <br />
+              MongoDB <br />
+              <br />
+              Python <br />
             </SkillsP>
           </SkillsPWrapper>
         </SkillsCard>
@@ -76,19 +78,18 @@ const AboutSection = () => {
           <SkillsH1>Design</SkillsH1>
           <SkillsPWrapper>
             <SkillsP>
-              Figma <br /> <br /> Cinema 4D <br /> Maya <br />
+              Typography <br />
               <br />
-              Adobe Suites —
+              Figma <br />
               <br />
-              Photoshop
+              Cinema 4D <br />
               <br />
-              After Effects
-              <br />
-              InDesign
-              <br />
-              Illustrator
-              <br />
-              Premiere Pro
+              Adobe Suites — <br />
+              Photoshop <br />
+              After Effects <br />
+              InDesign <br />
+              Illustrator <br />
+              Premiere Pro <br />
             </SkillsP>
           </SkillsPWrapper>
         </SkillsCard>
