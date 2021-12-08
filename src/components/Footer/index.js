@@ -1,7 +1,7 @@
-import React from "react";
-import { FaInstagram, FaGithub, FaFileAlt } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
-import resume2021 from "../../assets/JustinJangResume.pdf";
+import React from 'react';
+import { FaInstagram, FaGithub, FaFileAlt } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
+import resume2021 from '../../assets/JustinJangResume.pdf';
 
 import {
   FooterContainer,
@@ -17,7 +17,7 @@ import {
   PersonalLogoCircle,
   PersonalLogo,
   Copyrights,
-} from "./FooterElements";
+} from './FooterElements';
 
 const Footer = () => {
   const toggleHome = () => {
@@ -31,7 +31,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLink
-              href='//www.instagram.com/justin_j.ang'
+              href='https://www.instagram.com/justin_j.ang/'
               target='_blank'
               aria-label='Instagram'
             >
@@ -41,7 +41,7 @@ const Footer = () => {
               <FooterLinkP>@justin_j.ang</FooterLinkP>
             </FooterLink>
             <FooterLink
-              href='//www.github.com/deviju95'
+              href='https://github.com/deviju95'
               target='_blank'
               aria-label='Github'
             >

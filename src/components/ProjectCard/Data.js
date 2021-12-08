@@ -1,4 +1,28 @@
 export const projectOne = {
+  topLine: 'A social media platform',
+  title: 'Foodies—',
+  description:
+    'Share your go to food places and see what others have shared for your next meal.',
+  techStack: '#React #Node.js #Express #MongoDB',
+  linkOneTitle: 'Visit Website',
+  linkOne: 'https://foodies-7cc2c.web.app/',
+  dividerOne: '',
+  linkTwoTitle: 'Frontend',
+  linkTwo: 'https://github.com/deviju95/foodies',
+  dividerTwo: '',
+  linkThreeTitle: 'Backend',
+  linkThree: 'https://github.com/deviju95/foodies-server',
+
+  img: require('../../assets/foodies-img.svg').default,
+  alt: 'project two image',
+  lightBg: true,
+  lightText: false,
+  darkText: true,
+  lightTextDesc: false,
+  imgStart: true,
+};
+
+export const projectTwo = {
   topLine: 'AI generated personal storybook',
   title: 'LIBIAM—',
   description:
@@ -20,30 +44,6 @@ export const projectOne = {
   darkText: true,
   lightTextDesc: false,
   imgStart: false,
-};
-
-export const projectTwo = {
-  topLine: 'A social media platform',
-  title: 'Foodies—',
-  description:
-    'A social media platform where you can share places of goodies or a must-go restaurant.',
-  techStack: '#React #GoogleAPI',
-  linkOneTitle: 'Git',
-  linkOne: 'https://github.com/deviju95/foodies',
-  dividerOne: '',
-  linkTwoTitle: '',
-  linkTwo: '',
-  dividerTwo: '',
-  linkThreeTitle: '',
-  linkThree: '',
-
-  img: require('../../assets/foodies-img.svg').default,
-  alt: 'project two image',
-  lightBg: true,
-  lightText: false,
-  darkText: true,
-  lightTextDesc: false,
-  imgStart: true,
 };
 
 export const projectThree = {

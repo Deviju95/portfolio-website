@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ProjectsCard = styled.div`
   max-width: 1100px;
@@ -9,9 +9,11 @@ export const ProjectsCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
-  &:hover {
+  ${
+    '' /* &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+  } */
   }
 
   @media screen and (max-width: 768px) {
@@ -43,16 +45,14 @@ export const Column2 = styled.div`
 
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 30px;
 `;
 
 export const ImgWrap = styled.div`
   max-width: 300px;
-  padding: 0 50px 0 10px;
 
   @media screen and (max-width: 768px) {
     width: 200px;
-    padding: 20px;
   }
 `;
 
@@ -81,7 +81,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: italic;
   font-weight: 300;
   font-size: 0.8rem;
@@ -109,7 +109,7 @@ export const Heading = styled.h1`
 
   margin: 3px 0 0;
 
-  color: ${({ lightText }) => (lightText ? "#fff" : "#010606")};
+  color: ${({ lightText }) => (lightText ? '#fff' : '#010606')};
 
   @media screen and (max-width: 768px) {
     font-size: 2.4rem;
@@ -122,7 +122,7 @@ export const Subtitle = styled.p`
   font-weight: 300;
   line-height: 1.4;
 
-  margin: 50px 0 0;
+  margin: 30px 0 0;
 
   color: #010606;
 
@@ -135,38 +135,18 @@ export const Subtitle = styled.p`
   }
 `;
 
-export const TechStack = styled.p`
-  font-family: "Roboto";
-  font-style: italic;
-  letter-spacing: 0.5px;
-  font-size: 1rem;
-  font-weight: 400;
-
-  margin: 50px 0 0;
-
-  color: #636e72;
-
-  @media screen and (max-width: 768px) {
-    letter-spacing: 0.5px;
-    font-size: 0.8rem;
-    font-weight: 400;
-
-    margin: 30px 0 0;
-  }
-`;
-
 export const ProjectLinksWrapper = styled.div`
   display: flex;
   align-items: center;
   column-gap: 10px;
 
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 0.8;
   text-align: center;
 
-  height: 30px;
-  margin: 8px 0 0;
+  height: 15px;
+  margin: 30px 0 0;
 
   @media screen and (max-width: 768px) {
     column-gap: 20px;
@@ -174,7 +154,7 @@ export const ProjectLinksWrapper = styled.div`
     font-size: 1.2rem;
     font-weight: 500;
 
-    margin: 20px 0 10px;
+    margin: 30px 0 10px;
   }
 `;
 
@@ -182,13 +162,11 @@ export const ProjectLink = styled.a`
   height: 100%;
 
   text-decoration: none;
-  text-transform: uppercase;
   cursor: pointer;
   color: #0984e3;
 
   &:hover {
-    transform: scale(1.02);
-    color: #d63031;
+    color: #065999;
     transition: all 0.2s ease-in-out;
   }
 
@@ -205,5 +183,25 @@ export const ProjectLinkDivider = styled.p`
     font-weight: 600;
 
     color: #74b9ff;
+  }
+`;
+
+export const TechStack = styled.p`
+  font-family: 'Roboto';
+  font-style: italic;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  font-weight: 300;
+
+  margin: 35px 0 0;
+
+  color: #636e72;
+
+  @media screen and (max-width: 768px) {
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    margin: 30px 0 0;
   }
 `;

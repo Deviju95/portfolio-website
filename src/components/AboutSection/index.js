@@ -41,18 +41,16 @@ const AboutSection = () => {
           <SkillsH1>Front-end</SkillsH1>
           <SkillsPWrapper>
             <SkillsP>
-              HTML <br />
-              CSS <br />
-              Javascript <br />
-              <br />
               React.js <br />
+              React Hooks <br />
+              React Contexts <br />
+              <br />
               Styled-Components <br />
               TailWindCSS <br />
               <br />
-              Bootstrap <br />
-              Material UI <br />
-              <br />
-              Github <br />
+              HTML <br />
+              CSS <br />
+              Javascript <br />
             </SkillsP>
           </SkillsPWrapper>
         </SkillsCard>

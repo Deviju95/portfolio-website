@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ProjectsCard,
   ProjectsRow,
@@ -14,7 +14,7 @@ import {
   ProjectLinkDivider,
   ImgWrap,
   Img,
-} from "./ProjectCardElements";
+} from './ProjectCardElements';
 
 const ProjectCard = (props) => {
   return (
@@ -25,20 +25,20 @@ const ProjectCard = (props) => {
             <TopLine>{props.topLine}</TopLine>
             <Heading lightText={props.lightText}>{props.title}</Heading>
             <Subtitle darkText={props.darkText}>{props.description}</Subtitle>
-            <TechStack>{props.techStack}</TechStack>
             <ProjectLinksWrapper>
-              <ProjectLink href={props.linkOne} target="_blank">
+              <ProjectLink href={props.linkOne} target='_blank'>
                 {props.linkOneTitle}
               </ProjectLink>
               <ProjectLinkDivider>{props.dividerOne}</ProjectLinkDivider>
-              <ProjectLink href={props.linkTwo} target="_blank">
+              <ProjectLink href={props.linkTwo} target='_blank'>
                 {props.linkTwoTitle}
               </ProjectLink>
               <ProjectLinkDivider>{props.dividerTwo}</ProjectLinkDivider>
-              <ProjectLink href={props.linkThree} target="_blank">
+              <ProjectLink href={props.linkThree} target='_blank'>
                 {props.linkThreeTitle}
               </ProjectLink>
             </ProjectLinksWrapper>
+            <TechStack>{props.techStack}</TechStack>
           </TextWrapper>
         </Column1>
         <Column2>
