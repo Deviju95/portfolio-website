@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.70048e36.chunk.js",
-    "main.js.map": "/static/js/main.70048e36.chunk.js.map",
+    "main.js": "/static/js/main.c04d7bff.chunk.js",
+    "main.js.map": "/static/js/main.c04d7bff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa5713dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa5713dc.js.map",
     "static/js/2.626539e5.chunk.js": "/static/js/2.626539e5.chunk.js",
@@ -9,7 +9,7 @@
     "index.html": "/index.html",
     "static/js/2.626539e5.chunk.js.LICENSE.txt": "/static/js/2.626539e5.chunk.js.LICENSE.txt",
     "static/media/JJFontPersonalLogo.bda025ea.otf": "/static/media/JJFontPersonalLogo.bda025ea.otf",
-    "static/media/JustinJangResume.52808e9d.pdf": "/static/media/JustinJangResume.52808e9d.pdf",
+    "static/media/JustinJangResume.70a69fa4.pdf": "/static/media/JustinJangResume.70a69fa4.pdf",
     "static/media/foodies-img.svg": "/static/media/foodies-img.b93c6871.svg",
     "static/media/keep-clone-img.svg": "/static/media/keep-clone-img.86e0ce73.svg",
     "static/media/libiam-img.svg": "/static/media/libiam-img.7633e46b.svg",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime-main.fa5713dc.js",
     "static/js/2.626539e5.chunk.js",
-    "static/js/main.70048e36.chunk.js"
+    "static/js/main.c04d7bff.chunk.js"
   ]
 }
