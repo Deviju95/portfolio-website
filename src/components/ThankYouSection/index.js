@@ -1,6 +1,6 @@
-import React from "react";
-import { FaInstagram, FaGithub, FaFileAlt } from "react-icons/fa";
-import resume2021 from "../../assets/JustinJangResume.pdf";
+import React from 'react';
+import { FaInstagram, FaGithub, FaFileAlt } from 'react-icons/fa';
+import resume2021 from '../../assets/JustinJangResume.pdf';
 
 import {
   ThankYouContainer,
@@ -14,7 +14,7 @@ import {
   SocialLinkLogo,
   SocialLinkP,
   CopyrightP,
-} from "./ThankYouElements";
+} from './ThankYouElements';
 
 const ThankYouSection = () => {
   return (
@@ -51,7 +51,7 @@ const ThankYouSection = () => {
           <SocialLinkLogo>
             <FaFileAlt />
           </SocialLinkLogo>
-          <SocialLinkP> resume</SocialLinkP>
+          <SocialLinkP>resume</SocialLinkP>
         </SocialLink>
       </SocialLinksWrapper>
 
