@@ -1,6 +1,6 @@
-import React from "react";
-import { FaBars } from "react-icons/fa";
-import { animateScroll as scroll } from "react-scroll";
+import React from 'react';
+import { FaBars } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 
 import {
   Nav,
@@ -10,7 +10,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-} from "./NavbarElements";
+} from './NavbarElements';
 
 const Navbar = (props) => {
   const toggleHome = () => {
@@ -21,7 +21,7 @@ const Navbar = (props) => {
     <>
       <Nav>
         <NavBarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to='/' onClick={toggleHome}>
             jj
           </NavLogo>
           <MobileIcon onClick={props.toggle}>
@@ -30,38 +30,38 @@ const Navbar = (props) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="about"
+                to='about'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-81}
               >
-                About
+                ABOUT
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
-                to="projects"
+                to='projects'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
-                Projects
+                PROJECTS
               </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
-                to="contact"
+                to='contact'
                 smooth={true}
                 duration={500}
                 spy={true}
-                exact="true"
+                exact='true'
                 offset={-80}
               >
-                Contact
+                CONTACT
               </NavLinks>
             </NavItem>
           </NavMenu>

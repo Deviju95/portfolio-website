@@ -1,16 +1,22 @@
-import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import { createGlobalStyle } from "styled-components";
-import personalLogoFont from "./assets/JJFontPersonalLogo.otf";
+import React from 'react';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { createGlobalStyle } from 'styled-components';
+import personalLogoFont from './assets/JJFontPersonalLogo.otf';
+import Calibre from './assets/CalibreRegular.otf';
 
-import Home from "./pages";
-import ThankYouPage from "./pages/ThankYouPage";
+import Home from './pages';
+import ThankYouPage from './pages/ThankYouPage';
 
 const GlobalStyle = createGlobalStyle`
 @font-face {
     font-family: "personalLogoFont";
     src: url(${personalLogoFont});
   }
+
+@font-face {
+  font-family: 'Calibre';
+  src: url(${Calibre});
+}
 
   body {
   margin: 0;
@@ -26,8 +32,8 @@ function App() {
       <GlobalStyle />
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/thankyou" component={ThankYouPage} />
+        <Route exact path='/' component={Home} />
+        <Route path='/thankyou' component={ThankYouPage} />
       </Switch>
     </Router>
   );

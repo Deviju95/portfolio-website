@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
+import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
   background-color: #010606;
@@ -33,7 +33,7 @@ export const NavLogo = styled(LinkR)`
   justify-self: flex-start;
   align-items: center;
 
-  font-family: "personalLogoFont";
+  font-family: 'personalLogoFont';
   font-size: 2rem;
   color: #fff;
   text-decoration: none;
@@ -69,7 +69,9 @@ export const NavMenu = styled.ul`
   list-style: none;
   margin-right: -22px;
 
-  font-size: 1.2rem;
+  font-family: 'Calibre';
+  font-size: 1.1rem;
+  letter-spacing: 2px;
   color: #636e72;
 
   @media screen and (max-width: 768px) {
