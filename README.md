@@ -6,50 +6,42 @@ This is my portfolio website. You can visit the website at [justin-jang.com](htt
 
 - This website is created to promote my projects and a contact form to reach out to me.
 
-## Built With
-
-### Tech Stack
+### Built With
 
 - React
-
-### Languages
-
-- JavaScript
-
-### Others
-
-- styled-components
 - react-scroll
-- react-router
 - react gh-pages
-- formsubmit.com
+- formsubmit.com (third party for email control)
 
-## Getting Started
+## Dev Purpose
 
-- Go to [justin-jang.com](https://justin-jang.com).
-- Click project box to start the app.
-- You can also click **Git** or **Server** inside the project card to see the codes.
-- Drop me a message through the contact form!
-- Checkout my github, instagram or resume at the footer.
+### Load on browser
 
-### `Personal Note`
+Run
 
-#### react deploy through github
+```
+npm run start
+```
 
-I added lines inside package.json —
-"homepage" : "https://justin-jang.com",
+to start the development server.
+Check localhost:3000 in your browser and see if the home page loads!
+
+### Deploy through github
+
+Run
+
+```
+npm run deploy
+```
+
+will run
+
+`"predeploy":"npm run build && cp CNAME build/CNAME"`
 and
-"scripts": { "predeploy":"npm run build && cp CNAME build/CNAME", "deploy":"gh-pages -d build", }
+`"deploy":"gh-pages -d build"`
+
 to deploy react.js through gh-pages.
 
-I also added CNAME including my url in order to gh-pages to automatically include my custom url when I **npm run deploy**.
+(Also added CNAME including my url in order to gh-pages to automatically include my custom url when I deploy.)
 
-#### react-router
-
-I used **HashRouter** instead of BrowserRouter as an alternative prevention of blank **route** page when deployed through gh-pages.
-
-Through the Switch, Route system, the page routes between "home" and "thankyou" page.
-
-#### formsubmit.com
-
-I used a third party site to send me emails through form submission on the contact section.
+Happy hacking! 💃
