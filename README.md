@@ -9,7 +9,7 @@ This is my portfolio website. You can visit the website at [justin-jang.com](htt
 ### Built With
 
 - React
-- react-scroll
+- react-router-dom v6
 - react gh-pages
 - formsubmit.com (third party for email control)
 

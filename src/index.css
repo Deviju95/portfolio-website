@@ -1,0 +1,10 @@
+main {
+  min-height: 80vh;
+  padding: 3rem;
+}
+
+/* local fonts */
+@font-face {
+  font-family: 'JustinFont';
+  src: local('JustinFont'), url(./assets/JustinFont.otf);
+}
