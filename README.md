@@ -67,6 +67,7 @@ and will deploy react app through gh-pages.
 ## To do
 
 - update design website
+- add loading on message modal popup
 - update graphic design works section
 
 ---

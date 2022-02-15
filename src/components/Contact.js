@@ -100,7 +100,7 @@ const Contact = () => {
               </Col>
               <Col>
                 <a
-                  href='https://www.linkedin.com/in/justin-kyumin-jang-b061a0174/'
+                  href='https://www.linkedin.com/in/justin-k-jang-b061a0174/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -180,8 +180,8 @@ const Contact = () => {
       >
         {isSent ? (
           <ModalMessage
-            title='Message Sent!'
-            body='Thank you for your message! Have a nice day :D'
+            title='Message Sent Successfully!'
+            body='Thank you for your message. Have a nice day :D'
           />
         ) : (
           <ModalMessage

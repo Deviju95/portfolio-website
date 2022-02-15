@@ -14,7 +14,7 @@ const GraphicDesign = () => {
                 <mark>
                   Project-Final-fixed-
                   <br />
-                  REALFINAL.psd
+                  FINALFINAL.psd
                 </mark>
               </h1>
               <p>
