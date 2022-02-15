@@ -1,41 +1,28 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-import { createGlobalStyle } from 'styled-components';
-import personalLogoFont from './assets/JJFontPersonalLogo.otf';
-import Calibre from './assets/CalibreRegular.otf';
+import { Col, Container } from 'react-bootstrap';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
-import Home from './pages';
-import ThankYouPage from './pages/ThankYouPage';
-
-const GlobalStyle = createGlobalStyle`
-@font-face {
-    font-family: "personalLogoFont";
-    src: url(${personalLogoFont});
-  }
-
-@font-face {
-  font-family: 'Calibre';
-  src: url(${Calibre});
-}
-
-  body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Mukta', sans-serif;
-}
-`;
+import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
-      <GlobalStyle />
-
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/thankyou' component={ThankYouPage} />
-      </Switch>
-    </Router>
+    <BrowserRouter>
+      <Header />
+      <main>
+        <Container>
+          <Col md={8}>
+            {/* router-dom V6:: 'Switch' is replaced by 'Routes' */}
+            <Routes>
+              {/* router-dom V6:: 'Route' format changed */}
+              <Route path='/' element={<Home />} />
+            </Routes>
+          </Col>
+        </Container>
+      </main>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

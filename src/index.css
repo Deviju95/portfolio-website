@@ -1,0 +1,114 @@
+main {
+  min-height: 80vh;
+  padding: 3rem;
+}
+
+/* Custom CSS */
+/* ---------- */
+
+/* Global */
+.link_hover a {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.link_hover a:hover {
+  background-color: #ff3c007e;
+  text-decoration: underline;
+}
+
+/* NavBar */
+.container {
+  flex-direction: row-reverse;
+}
+.nav-item {
+  margin-left: auto;
+}
+
+/* Lists */
+.list_style {
+  list-style: none;
+  list-style-type: '»';
+  list-style-position: outside;
+  padding-left: 1ch;
+}
+.list_style li {
+  padding-left: 1rem;
+}
+
+/* Project Card */
+.project_card_body {
+  display: flex;
+  flex-direction: column;
+}
+.card_link {
+  margin-top: auto;
+}
+
+.icons_wrapper span {
+  font-size: 1rem;
+  color: #ff1e0088;
+  cursor: not-allowed;
+}
+
+.icons_wrapper a {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  color: #55595c;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.icons_wrapper a:hover {
+  text-decoration: none;
+  color: #151515;
+  background-color: #ff3c007e;
+}
+
+/* Social */
+.social_icon_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  width: 6rem;
+  height: 6rem;
+
+  transition: all 0.15s ease-in-out;
+}
+.social_icon_box:hover {
+  transform: scale(1.02);
+}
+.social_icon {
+  font-size: 2.7rem;
+
+  color: #fff;
+
+  transition: all 0.2s ease-in-out;
+}
+.social_icon_box:hover > .social_icon {
+  transform: scale(1.1);
+}
+.social_links_style a {
+  text-decoration: none;
+}
+.social_links_style p {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.social_links_style small {
+  font-weight: lighter;
+  color: #55595c;
+  font-size: smaller;
+}
+
+/* local fonts */
+@font-face {
+  font-family: 'JustinFont';
+  src: local('JustinFont'), url(./assets/JustinFont.otf);
+}
+
+/* transition timing */
+/*   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+ */
