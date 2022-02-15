@@ -1,22 +1,30 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
     <header>
-      <Navbar bg='light' expand='lg'>
-        <Container>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ms-auto'>
-              <Nav.Link href='#home'>Projects</Nav.Link>
-              <Nav.Link href='#link'>Contact</Nav.Link>
-              <i class='fa-brands fa-github'></i>
+      <Navbar expand='lg' collapseOnSelect bg='light'>
+        <Container className='container'>
+          <Navbar.Brand href='/' style={{ fontFamily: 'JustinFont' }}>
+            Jang
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls='navlinks' />
+
+          <Navbar.Collapse id='navlinks'>
+            <Nav className='me-auto'>
+              <Nav.Link className='nav-item' to='/'>
+                <Link to='programming'>Programming</Link>
+              </Nav.Link>
+              <Nav.Link className='nav-item' href='/'>
+                <Link to='graphic_design'>Graphic Design</Link>
+              </Nav.Link>
+              <Nav.Link className='nav-item'>
+                <Link to='contact'>Contact</Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Navbar.Brand href='/'>
-            <p style={{ fontFamily: 'JustinFont' }}>JANG</p>
-          </Navbar.Brand>
         </Container>
       </Navbar>
     </header>

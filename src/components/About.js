@@ -1,21 +1,55 @@
 import React from 'react';
+import { Col, Image, Row } from 'react-bootstrap';
+
+import profileImage from '../assets/profile-img.png';
 
 const About = () => {
   return (
     <>
-      <p>Justin Kyumin Jang</p>
-      <h1>Hi there —!</h1>
-      <h3>
-        I have passion in building interactive websites and find pleasure in
-        designs with aesthetic details.
-      </h3>
-      <h1>img</h1>
-
-      <p>
-        Justin Kyumin Jang <br /> Frontend Developer <br /> Graphic Designer
-        (Link)
-        <br /> Bachelor's Degree from USC (link)
-      </p>
+      <Row className='mb-5'>
+        <Col>
+          {/* Intro */}
+          <Col>
+            <p>about</p>
+            <h1>
+              <mark>
+                Code +
+                <br /> Wonderful
+              </mark>
+            </h1>
+            <p className='lead'>
+              I enjoy building interactive websites and
+              <br />
+              find pleasure in aesthetic designs.
+            </p>
+          </Col>
+          {/* Profile Image */}
+          <Col md={3} xs={4}>
+            <Image fluid roundedCircle src={profileImage} alt='Profile Image' />
+          </Col>
+          {/* Profile */}
+          <Col className='mt-4'>
+            <h5>Justin K. Jang</h5>
+            <p className='link_hover'>
+              <small>
+                Frontend Developer
+                {/* @
+                <a href='/' target='_blank' rel='noreferrer'>
+                  ______
+                </a> */}
+              </small>
+              <br />
+              <small>Graphic Designer</small>
+              <br />
+              <small className='text-danger'>USC </small>
+              <small>Bachelor's Degree '21</small>
+              {/* <br />
+              <small className='text-danger'>USC </small>
+              <small>Roski School of Art&Design '21</small> */}
+            </p>
+          </Col>
+        </Col>
+      </Row>
     </>
   );
 };

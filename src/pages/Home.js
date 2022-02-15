@@ -8,7 +8,9 @@ import Programming from '../components/Programming';
 const Home = () => {
   return (
     <>
-      <About />
+      <main>
+        <About />
+      </main>
       <Programming />
       <GraphicDesign />
       <Contact />
