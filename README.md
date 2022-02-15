@@ -28,9 +28,9 @@ Go to root folder and create
 ```
 .env
 
-REACT_APP_SERVICE_ID
-REACT_APP_TEMPLATE_ID
-REACT_APP_USER_ID
+REACT_APP_SERVICE_ID=
+REACT_APP_TEMPLATE_ID=
+REACT_APP_USER_ID=
 ```
 
 To operate emailjs properly.
