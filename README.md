@@ -8,8 +8,9 @@ You can visit the website at [justin-jang.com](https://justin-jang.com).
 
 - react.js
 - react-router-dom v6
-- react gh-pages
 - emailjs
+- react gh-pages
+- react-scroll
 - bootstrap
 
 ## Dev Purpose
