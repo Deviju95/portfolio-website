@@ -1,5 +1,4 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
 import { IoCodeOutline } from 'react-icons/io5';
 import { IoMdGlobe } from 'react-icons/io';
 
