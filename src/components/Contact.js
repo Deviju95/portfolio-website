@@ -100,7 +100,7 @@ const Contact = () => {
               </Col>
               <Col>
                 <a
-                  href='https://www.linkedin.com/in/justin-k-jang-b061a0174/'
+                  href='https://www.linkedin.com/in/justin-jang-b061a0174/'
                   target='_blank'
                   rel='noreferrer'
                 >

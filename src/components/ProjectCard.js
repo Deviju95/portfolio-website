@@ -23,7 +23,8 @@ const ProjectCard = ({ project }) => {
                   &thinsp;
                 </a>
                 <span>
-                  developing <IoMdGlobe />
+                  developing...
+                  <IoMdGlobe />
                 </span>
               </div>
             ) : (
