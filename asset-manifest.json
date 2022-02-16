@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.701fa43c.chunk.css",
-    "main.js": "/static/js/main.0360380f.chunk.js",
-    "main.js.map": "/static/js/main.0360380f.chunk.js.map",
+    "main.css": "/static/css/main.a4b3a29b.chunk.css",
+    "main.js": "/static/js/main.0098abb4.chunk.js",
+    "main.js.map": "/static/js/main.0098abb4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa5713dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa5713dc.js.map",
     "static/js/2.109d1964.chunk.js": "/static/js/2.109d1964.chunk.js",
     "static/js/2.109d1964.chunk.js.map": "/static/js/2.109d1964.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.701fa43c.chunk.css.map": "/static/css/main.701fa43c.chunk.css.map",
+    "static/css/main.a4b3a29b.chunk.css.map": "/static/css/main.a4b3a29b.chunk.css.map",
     "static/js/2.109d1964.chunk.js.LICENSE.txt": "/static/js/2.109d1964.chunk.js.LICENSE.txt",
-    "static/media/Justin Jang_Resume.28a20719.pdf": "/static/media/Justin Jang_Resume.28a20719.pdf",
+    "static/media/Justin Jang_Resume.646da248.pdf": "/static/media/Justin Jang_Resume.646da248.pdf",
     "static/media/index.css": "/static/media/JustinFont.bda025ea.otf",
     "static/media/profile-img.60e75f9c.png": "/static/media/profile-img.60e75f9c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fa5713dc.js",
     "static/js/2.109d1964.chunk.js",
-    "static/css/main.701fa43c.chunk.css",
-    "static/js/main.0360380f.chunk.js"
+    "static/css/main.a4b3a29b.chunk.css",
+    "static/js/main.0098abb4.chunk.js"
   ]
 }
