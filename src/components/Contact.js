@@ -54,9 +54,8 @@ const Contact = () => {
             </h1>
           </Col>
 
-          {/* Social */}
+          {/* Icon Links */}
           <Col className='mt-4'>
-            <h6 className='mt-4 mb-3'>Social</h6>
             <Row xs={2} sm={3} md={3} lg={4} className='g-4 social_links_style'>
               <Col>
                 <a
@@ -181,7 +180,7 @@ const Contact = () => {
         {isSent ? (
           <ModalMessage
             title='Message Sent Successfully!'
-            body='Thank you for your message. Have a nice day :D'
+            body='Thank you for your message. Feel free to reach out through above social media as well :D'
           />
         ) : (
           <ModalMessage

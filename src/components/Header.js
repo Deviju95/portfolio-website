@@ -14,15 +14,15 @@ const Header = () => {
 
           <Navbar.Collapse id='navlinks'>
             <Nav className='me-auto'>
-              <Nav.Link className='nav-item' to='/'>
-                <Link to='programming'>Programming</Link>
-              </Nav.Link>
-              <Nav.Link className='nav-item' href='/'>
-                <Link to='graphic_design'>Graphic Design</Link>
-              </Nav.Link>
-              <Nav.Link className='nav-item'>
-                <Link to='contact'>Contact</Link>
-              </Nav.Link>
+              <Link className='nav-link nav-item' to='programming'>
+                Programming
+              </Link>
+              <Link className='nav-link nav-item' to='graphic_design'>
+                Graphic Design
+              </Link>
+              <Link className='nav-link nav-item' to='contact'>
+                Contact
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardGroup, Col, Row } from 'react-bootstrap';
 
-import Resume from '../assets/Justin Jang_Resume.pdf';
+import Resume from '../assets/Justin Jang Resume_2022-05.pdf';
 import { projectData } from '../data/project-data';
 import ProjectCard from './ProjectCard';
 
@@ -14,15 +14,12 @@ const Programming = () => {
           <Col>
             <p>programming</p>
             <h1>
-              <mark>
-                It's been a while since I started counting from &nbsp;"0"
-              </mark>
+              <mark>Create solutions through coding</mark>
             </h1>
             <p>
               <small>
-                I am a programmer. I adore moments when I find that one last
-                semi-colon to clear all the errors and finally make things
-                running again.
+                I create simply beautiful applications that will make our daily
+                life more intuitive and interesting.
               </small>
             </p>
           </Col>
@@ -35,7 +32,7 @@ const Programming = () => {
               rel='noreferrer'
               area-label='Resume'
             >
-              View full CV
+              View Full Resume
             </a>
           </Col>
           {/* Short Resume */}
@@ -70,9 +67,9 @@ const Programming = () => {
             </ul>
           </Col>
           {/* Project Cards */}
-          <Col className='mt-4'>
+          <Col className='mt-4 project__card-width'>
             <h6 className='mb-3'>projects</h6>
-            <Row sm={2} md={2} lg={2} xl={3} className='g-4'>
+            <Row md={1} className='g-4'>
               {projectData.map((project) => (
                 <CardGroup key={project.id}>
                   <ProjectCard project={project} />

@@ -11,21 +11,18 @@ const GraphicDesign = () => {
             <Col>
               <p>graphic design</p>
               <h1>
-                <mark>
-                  Project-Final-fixed-
-                  <br />
-                  FINALFINAL.psd
-                </mark>
+                <mark>Explore designs to capture innovative eyes</mark>
               </h1>
               <p>
                 <small>
-                  I am a graphic designer. I digest what I see and create things
-                  to be experienced.
+                  I explore, create, and suggest visual graphics of different
+                  mediums to grab attention of those looking for creative and
+                  effective solutions.
                 </small>
               </p>
             </Col>
             {/* Design Website Button */}
-            <Col className='mt-4'>
+            {/* <Col className='mt-4'>
               <a
                 className='btn btn-outline-primary btn-sm'
                 href='https://jangju99.wixsite.com/mysite'
@@ -35,7 +32,8 @@ const GraphicDesign = () => {
               >
                 View More Works
               </a>
-            </Col>
+            </Col> */}
+
             {/* Works */}
             <Col className='mt-4'>
               <h6 className='mt-4'>Works</h6>
@@ -52,14 +50,52 @@ const GraphicDesign = () => {
                 <li>
                   <small>
                     <a
+                      href='https://www.pattersonreckinger.com/getty-unshuttered-2019'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      The Getty Unshuttered Project
+                    </a>
+                    :: Kinetic Typograpy
+                    <small className='text-muted'>
+                      , Project Participant / 2020
+                    </small>
+                  </small>
+                </li>
+                <li>
+                  <small>
+                    <a
+                      href='https://www.usctrojanesports.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      USC Trojan Esports Union
+                    </a>
+                    :: Poster, Banner Design
+                    <small className='text-muted'>
+                      , Student Graphic Designer / 2019
+                    </small>
+                  </small>
+                </li>
+                <li>
+                  <small>
+                    <a
                       href='https://sfi.usc.edu/'
                       target='_blank'
                       rel='noreferrer'
                     >
                       USC Shoah Foundation
                     </a>
-                    :: Graphic Design Intern
-                    <small className='text-muted'>, 2019.06-2019.12</small>
+                    :: Web UI, Template design
+                    <small className='text-muted'>
+                      , Graphic Design Intern / 2019
+                    </small>
+                  </small>
+                </li>
+                <li>
+                  <small>
+                    Personal projects in web design, motion graphics, product
+                    design, and fine art
                   </small>
                 </li>
               </ul>

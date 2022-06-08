@@ -32,14 +32,14 @@ const About = () => {
             <h5>Justin K. Jang</h5>
             <p className='link_hover'>
               <small>
-                Frontend Developer
+                Frontend Engineer
                 {/* @
                 <a href='/' target='_blank' rel='noreferrer'>
                   ______
                 </a> */}
               </small>
               <br />
-              <small>Graphic Designer</small>
+              <small>Graphic Design</small>
               <br />
               <small className='text-danger'>USC </small>
               <small>Bachelor's Degree '21</small>
