@@ -12,10 +12,6 @@ main {
   padding: 3rem;
 }
 
-section {
-  min-height: 81vh;
-}
-
 /* Custom CSS */
 /* ---------- */
 
@@ -52,6 +48,35 @@ section {
 }
 .list_style li {
   padding-left: 1rem;
+}
+
+/* Landing Page */
+.landing-page {
+  min-height: 81vh;
+}
+.scroll-down-btn__container {
+  position: absolute;
+  right: 10vw;
+  bottom: 5vh;
+}
+.scroll-down-btn {
+  font-size: 2.2rem;
+  color: var(--color-black);
+  cursor: pointer;
+
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+@keyframes bounce {
+  from {
+    transform: translateY(2.5px) scale(1);
+  }
+  to {
+    transform: translateY(-5px) scale(1);
+  }
 }
 
 /* Project Card */

@@ -3,7 +3,7 @@ import { Button, Col, Modal, Row } from 'react-bootstrap';
 import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
-import ModalMessage from './ModalMessage';
+import ModalMessage from '../components/ModalMessage';
 
 const Contact = () => {
   const [show, setShow] = useState(false);

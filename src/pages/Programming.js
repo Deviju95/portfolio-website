@@ -3,7 +3,7 @@ import { CardGroup, Col, Row } from 'react-bootstrap';
 
 import Resume from '../assets/Justin Jang Resume_2022-05.pdf';
 import { projectData } from '../data/project-data';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '../components/ProjectCard';
 
 const Programming = () => {
   return (

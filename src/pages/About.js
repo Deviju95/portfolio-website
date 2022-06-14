@@ -6,7 +6,7 @@ import profileImage from '../assets/profile-img.png';
 const About = () => {
   return (
     <>
-      <Row className='mb-5'>
+      <Row className='mb-4' id='about'>
         <Col>
           {/* Intro */}
           <Col>
