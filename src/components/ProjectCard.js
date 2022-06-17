@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
         <div className='card-body'>
           <h1>{project.title}</h1>
 
-          <h6 className='card-subtitle mb-2 text-muted'>
+          <h6 className='card-subtitle mb-2 text-muted mb-3'>
             <small>{project.subtitle}</small>
           </h6>
 

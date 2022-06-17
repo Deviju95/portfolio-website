@@ -64,10 +64,6 @@ and will deploy react app through gh-pages.
 
 **Important! added CNAME including my url in order to gh-pages to automatically include my custom url when I deploy.**
 
-## To do
-
-- Add loading on Drop A Line modal popup
-
 ---
 
 Happy hacking! 💃

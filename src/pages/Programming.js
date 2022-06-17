@@ -18,8 +18,8 @@ const Programming = () => {
             </h1>
             <p>
               <small>
-                I create simply beautiful applications that will make our daily
-                life more intuitive and interesting.
+                I create simply beautiful applications that will make our life
+                more intuitive and interesting.
               </small>
             </p>
           </Col>

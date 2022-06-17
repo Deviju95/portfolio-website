@@ -3,7 +3,7 @@
   --color-orange: #d9544f;
   --color-orange-light: #ff3c007e;
   --color-black: #1a1a1a;
-  --color-body: ##55595c;
+  --color-body: #55595c;
 }
 
 /* CSS RESET */
@@ -87,7 +87,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 95%;
 }
 .project__image-wrapper {
@@ -96,6 +96,9 @@ main {
   justify-content: center;
   width: 100%;
   overflow: hidden;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 1px 3px 3px 1px #b1b1b12c;
 }
 .project__image {
   width: 100%;
