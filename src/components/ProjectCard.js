@@ -7,9 +7,9 @@ const ProjectCard = ({ project }) => {
     <>
       <div className='card'>
         <div className='card-body'>
-          <h1>{project.title}</h1>
+          <h1 className='text-center'>{project.title}</h1>
 
-          <h6 className='card-subtitle mb-2 text-muted mb-3'>
+          <h6 className='card-subtitle text-muted text-center mb-5'>
             <small>{project.subtitle}</small>
           </h6>
 

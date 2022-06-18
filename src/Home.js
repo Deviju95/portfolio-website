@@ -11,9 +11,7 @@ const Home = () => {
     <div>
       <section className='landing-page'>
         <About />
-        <div className='scroll-down-btn__container'>
-          <ScrollDownBtn />
-        </div>
+        <ScrollDownBtn />
       </section>
       <Programming />
       <GraphicDesign />

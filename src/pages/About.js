@@ -1,8 +1,6 @@
 import React from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
 
-import profileImage from '../assets/profile-img.png';
-
 const About = () => {
   return (
     <>
@@ -23,10 +21,16 @@ const About = () => {
               find pleasure in aesthetic designs.
             </p>
           </Col>
+
           {/* Profile Image */}
-          <Col md={3} xs={4}>
-            <Image fluid roundedCircle src={profileImage} alt='Profile Image' />
-          </Col>
+          <div className='profile-img__wrapper'>
+            <img
+              src='/images/profile.jpg'
+              alt='profile'
+              className='profile-img'
+            />
+          </div>
+
           {/* Profile */}
           <Col className='mt-4'>
             <h5>Justin K. Jang</h5>

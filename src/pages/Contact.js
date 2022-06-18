@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <>
       <Row className='pt-5 pb-5' id='contact'>
-        <Col md={12}>
+        <Col md={8}>
           {/* Intro */}
           <Col>
             <p>contact</p>
@@ -55,7 +55,7 @@ const Contact = () => {
           </Col>
 
           {/* Icon Links */}
-          <Col className='mt-4'>
+          <Col className='mt-5'>
             <Row xs={2} sm={3} md={3} lg={4} className='g-4 social_links_style'>
               <Col>
                 <a
@@ -141,7 +141,7 @@ const Contact = () => {
           </Col>
 
           {/* Drop me a line */}
-          <Col>
+          <Col className='mt-5'>
             {/* using emailjs */}
             <form onSubmit={submitHandler}>
               <legend>Drop me a line—</legend>

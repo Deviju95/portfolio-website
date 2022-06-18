@@ -23,10 +23,11 @@ const Programming = () => {
               </small>
             </p>
           </Col>
+
           {/* Full Resume Button */}
-          <Col className='mt-4'>
+          <Col className='mt-5'>
             <a
-              className='btn btn-outline-primary btn-sm'
+              className='btn btn-outline-primary btn-md'
               href={Resume}
               target='_blank'
               rel='noreferrer'
@@ -35,9 +36,10 @@ const Programming = () => {
               View Full Resume
             </a>
           </Col>
+
           {/* Short Resume */}
-          <Col className='mt-4'>
-            {/* <h6 className='mt-4'>Work Experience</h6>
+          <Col className='mt-5'>
+            {/* <h4 className='mt-5'>Work Experience</h4>
             <ul className='list_style link_hover'>
               <li>
                 <small>
@@ -49,7 +51,7 @@ const Programming = () => {
                 </small>
               </li>
             </ul> */}
-            <h6 className='mt-4'>Achievements</h6>
+            <h4 className='ps-4'>Achievements</h4>
             <ul className='list_style link_hover'>
               <li>
                 <small>
@@ -66,10 +68,11 @@ const Programming = () => {
               </li>
             </ul>
           </Col>
+
           {/* Project Cards */}
-          <Col className='mt-4 project__card-width'>
-            <h6 className='mb-3'>projects</h6>
-            <Row md={1} className='g-4'>
+          <Col className='mt-5'>
+            <h4 className='mb-4 ps-4'>projects</h4>
+            <Row md={1} className='g-5 ps-3'>
               {projectData.map((project) => (
                 <CardGroup key={project.id}>
                   <ProjectCard project={project} />

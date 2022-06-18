@@ -3366,6 +3366,12 @@ fieldset:disabled .btn {
   font-size: 1.25rem;
   border-radius: 0;
 }
+.btn-group-md > .btn,
+.btn-md {
+  padding: 0.7rem 1.3rem;
+  border-radius: 0;
+  font-weight: 400;
+}
 .btn-group-sm > .btn,
 .btn-sm {
   padding: 0.5rem 1rem;
@@ -4443,7 +4449,7 @@ fieldset:disabled .btn {
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
 }
 .card-title {
   margin-bottom: 0.5rem;
@@ -6885,6 +6891,9 @@ fieldset:disabled .btn {
 }
 .mt-5 {
   margin-top: 3rem !important;
+}
+.mt-40 {
+  margin-top: 4rem !important;
 }
 .mt-auto {
   margin-top: auto !important;

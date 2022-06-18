@@ -4,7 +4,7 @@ import Link from 'react-scroll/modules/components/Link';
 
 const ScrollDownBtn = () => {
   return (
-    <div>
+    <div className='scroll-down-btn__container'>
       <Link to='programming'>
         <BiDownArrowAlt className='scroll-down-btn' />
       </Link>
