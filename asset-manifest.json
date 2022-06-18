@@ -1,22 +1,37 @@
 {
   "files": {
     "main.css": "/static/css/main.47798418.chunk.css",
-    "main.js": "/static/js/main.f011b241.chunk.js",
-    "main.js.map": "/static/js/main.f011b241.chunk.js.map",
+    "main.js": "/static/js/main.4db4cc30.chunk.js",
+    "main.js.map": "/static/js/main.4db4cc30.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa5713dc.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa5713dc.js.map",
-    "static/js/2.13fae80a.chunk.js": "/static/js/2.13fae80a.chunk.js",
-    "static/js/2.13fae80a.chunk.js.map": "/static/js/2.13fae80a.chunk.js.map",
+    "static/js/2.0e01e5a9.chunk.js": "/static/js/2.0e01e5a9.chunk.js",
+    "static/js/2.0e01e5a9.chunk.js.map": "/static/js/2.0e01e5a9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.47798418.chunk.css.map": "/static/css/main.47798418.chunk.css.map",
-    "static/js/2.13fae80a.chunk.js.LICENSE.txt": "/static/js/2.13fae80a.chunk.js.LICENSE.txt",
+    "static/js/2.0e01e5a9.chunk.js.LICENSE.txt": "/static/js/2.0e01e5a9.chunk.js.LICENSE.txt",
     "static/media/Justin Jang Resume_2022-05.82c2e15d.pdf": "/static/media/Justin Jang Resume_2022-05.82c2e15d.pdf",
-    "static/media/index.css": "/static/media/JustinFont.bda025ea.otf"
+    "static/media/index.css": "/static/media/JustinFont.bda025ea.otf",
+    "static/media/album-1.9d29d356.JPG": "/static/media/album-1.9d29d356.JPG",
+    "static/media/album-2.f384facd.JPG": "/static/media/album-2.f384facd.JPG",
+    "static/media/dict-1.7e66294e.JPG": "/static/media/dict-1.7e66294e.JPG",
+    "static/media/foodies-2.c8df8ac2.JPG": "/static/media/foodies-2.c8df8ac2.JPG",
+    "static/media/foodies-3.2566245b.JPG": "/static/media/foodies-3.2566245b.JPG",
+    "static/media/foodies-4.adfa896d.JPG": "/static/media/foodies-4.adfa896d.JPG",
+    "static/media/foodies-5.3295a04d.JPG": "/static/media/foodies-5.3295a04d.JPG",
+    "static/media/libiam-1.cbe830e6.JPG": "/static/media/libiam-1.cbe830e6.JPG",
+    "static/media/libiam-2.608cfdae.JPG": "/static/media/libiam-2.608cfdae.JPG",
+    "static/media/libiam-3.8a8cce39.JPG": "/static/media/libiam-3.8a8cce39.JPG",
+    "static/media/portfolio-1.a8ce6fa8.JPG": "/static/media/portfolio-1.a8ce6fa8.JPG",
+    "static/media/portfolio-2.35c6d4de.JPG": "/static/media/portfolio-2.35c6d4de.JPG",
+    "static/media/portfolio-3.8665785c.JPG": "/static/media/portfolio-3.8665785c.JPG",
+    "static/media/portfolio-4.2160f48e.JPG": "/static/media/portfolio-4.2160f48e.JPG",
+    "static/media/profile.jpg": "/static/media/profile.e65a5342.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fa5713dc.js",
-    "static/js/2.13fae80a.chunk.js",
+    "static/js/2.0e01e5a9.chunk.js",
     "static/css/main.47798418.chunk.css",
-    "static/js/main.f011b241.chunk.js"
+    "static/js/main.4db4cc30.chunk.js"
   ]
 }
