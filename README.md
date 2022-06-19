@@ -4,16 +4,7 @@ You can visit the website at [justin-jang.com](https://justin-jang.com).
 
 ## About the Project
 
-### Built With
-
-- react.js
-- react-router-dom v6
-- emailjs
-- react gh-pages
-- react-scroll
-- bootstrap
-
-## Dev Purpose
+## Dev Setup
 
 ```
 npm install

@@ -1,14 +1,24 @@
+import foodies2 from '../assets/foodies-2.JPG';
+import foodies3 from '../assets/foodies-3.JPG';
+import foodies4 from '../assets/foodies-4.JPG';
+import foodies5 from '../assets/foodies-5.JPG';
+import libiam1 from '../assets/libiam-1.JPG';
+import libiam2 from '../assets/libiam-2.JPG';
+import libiam3 from '../assets/libiam-3.JPG';
+import portfolio1 from '../assets/portfolio-1.JPG';
+import portfolio2 from '../assets/portfolio-2.JPG';
+import portfolio3 from '../assets/portfolio-3.JPG';
+import portfolio4 from '../assets/portfolio-4.JPG';
+import album1 from '../assets/album-1.JPG';
+import album2 from '../assets/album-2.JPG';
+import dict1 from '../assets/dict-1.JPG';
+
 export const projectData = [
   {
     id: 'foodies',
     title: 'Foodies',
     subtitle: '2022.02 - Personal Project',
-    images: [
-      '/images/foodies-2.JPG',
-      '/images/foodies-3.JPG',
-      '/images/foodies-4.JPG',
-      '/images/foodies-5.JPG',
-    ],
+    images: [foodies2, foodies3, foodies4, foodies5],
     description: (
       <p>
         <span>
@@ -76,11 +86,7 @@ export const projectData = [
     id: 'libiam',
     title: 'LIBIAM',
     subtitle: '2022.04 - Team Project',
-    images: [
-      '/images/libiam-1.JPG',
-      '/images/libiam-2.JPG',
-      '/images/libiam-3.JPG',
-    ],
+    images: [libiam1, libiam2, libiam3],
     description: (
       <p>
         <span>
@@ -152,12 +158,7 @@ export const projectData = [
     id: 'portfolio-website',
     title: 'Portfolio Website',
     subtitle: '2021.09 - Personal Project',
-    images: [
-      '/images/portfolio-1.JPG',
-      '/images/portfolio-2.JPG',
-      '/images/portfolio-3.JPG',
-      '/images/portfolio-4.JPG',
-    ],
+    images: [portfolio1, portfolio2, portfolio3, portfolio4],
     description: (
       <p>
         <span>
@@ -219,7 +220,7 @@ export const projectData = [
     id: 'album-search',
     title: 'Album Search',
     subtitle: '2022.04 - Personal Project',
-    images: ['/images/album-1.JPG', '/images/album-2.JPG'],
+    images: [album1, album2],
     description: (
       <p>
         <span>
@@ -271,7 +272,7 @@ export const projectData = [
     id: 'my-dictionary',
     title: 'My Dictionary',
     subtitle: '2022.06 - Personal Project',
-    images: ['/images/dict-1.JPG'],
+    images: [dict1],
     description: (
       <p>
         <span>

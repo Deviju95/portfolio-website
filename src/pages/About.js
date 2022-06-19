@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Image, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
           {/* Profile Image */}
           <div className='profile-img__wrapper'>
             <img
-              src='/images/profile.jpg'
+              src={require('../assets/profile.jpg').default}
               alt='profile'
               className='profile-img'
             />
