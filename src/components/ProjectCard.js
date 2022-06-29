@@ -5,7 +5,7 @@ import ImageCarousel from './ImageCarousel';
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div className='card'>
+      <div className='project-card__container'>
         <div className='card-body'>
           <h1 className='text-center'>{project.title}</h1>
 
